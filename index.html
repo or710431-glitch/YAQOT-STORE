@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ياقوت ستور - عبايات وأزياء إسلامية فاخرة</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar with Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container navbar-container">
+                <div class="logo">
+                    <i class="fas fa-gem"></i> 
+                    <span class="logo-text">ياقوت ستور</span>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link">الرئيسية</a></li>
+                    <li><a href="#products" class="nav-link">المنتجات</a></li>
+                    <li><a href="#about" class="nav-link">عن المتجر</a></li>
+                    <li><a href="#contact" class="nav-link">اتصل بنا</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg" style="background-image: url('yaqoot.jpg');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <div class="hero-badge">تحت إشراف محمد شاكر وياسمين ياسين</div>
+            <h1 class="hero-title">ياقوت ستور</h1>
+            <p class="hero-subtitle">عبايات فاخرة وسجادات صلاة ومصاحف بأعلى جودة</p>
+            <p class="hero-description">متجرك الموثوق للأزياء الإسلامية بتصاميم عصرية وكلاسيكية</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">اكتشف المنتجات</button>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" data-aos="zoom-in">
+                    <i class="fas fa-shopping-bag"></i>
+                    <h3>1000+</h3>
+                    <p>منتج متميز</p>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fas fa-users"></i>
+                    <h3>5000+</h3>
+                    <p>عميل سعيد</p>
+                </div>
+                <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fas fa-star"></i>
+                    <h3>4.9★</h3>
+                    <p>تقييم عملائنا</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Gallery Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-down">معرض منتجاتنا الحصري</h2>
+            <p class="section-subtitle" data-aos="fade-down" data-aos-delay="100">مجموعة مختارة بعناية من أفضل المنتجات</p>
+            
+            <div class="filter-buttons" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">🎯 الكل</button>
+                <button class="filter-btn" data-filter="abayas">👗 عبايات</button>
+                <button class="filter-btn" data-filter="prayer">🕌 سجادات صلاة</button>
+            </div>
+            <div class="gallery">
+                <!-- Abayas -->
+                <div class="gallery-item" data-category="abayas" data-aos="fade-up">
+                    <a href="y9.jpg" class="glightbox gallery-link" data-gallery="gallery" data-description="عباية فاخرة - تصميم حصري">
+                        <div class="image-wrapper">
+                            <img src="y9.jpg" alt="عباية فاخرة">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <p>عباية فاخرة</p>
+                                    <button class="btn-icon"><i class="fas fa-magnifying-glass-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="item-footer">
+                        <p class="item-title">عباية فاخرة</p>
+                        <div class="item-rating">
+                            <i class="fas fa-star"></i>
+                            <span>(12)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="abayas" data-aos="fade-up" data-aos-delay="50">
+                    <a href="y10.jpg" class="glightbox gallery-link" data-gallery="gallery" data-description="عباية عصرية - جودة عالية">
+                        <div class="image-wrapper">
+                            <img src="y10.jpg" alt="عباية عصرية">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <p>عباية عصرية</p>
+                                    <button class="btn-icon"><i class="fas fa-magnifying-glass-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="item-footer">
+                        <p class="item-title">عباية عصرية</p>
+                        <div class="item-rating">
+                            <i class="fas fa-star"></i>
+                            <span>(18)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="abayas" data-aos="fade-up" data-aos-delay="100">
+                    <a href="y12.jpg" class="glightbox gallery-link" data-gallery="gallery" data-description="عباية كلاسيكية - أناقة الماضي والحاضر">
+                        <div class="image-wrapper">
+                            <img src="y12.jpg" alt="عباية كلاسيكية">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <p>عباية كلاسيكية</p>
+                                    <button class="btn-icon"><i class="fas fa-magnifying-glass-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="item-footer">
+                        <p class="item-title">عباية كلاسيكية</p>
+                        <div class="item-rating">
+                            <i class="fas fa-star"></i>
+                            <span>(24)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Prayer Mats -->
+                <div class="gallery-item" data-category="prayer" data-aos="fade-up" data-aos-delay="150">
+                    <a href="y14.jpg" class="glightbox gallery-link" data-gallery="gallery" data-description="سجادة صلاة فاخرة - مريحة وأنيقة">
+                        <div class="image-wrapper">
+                            <img src="y14.jpg" alt="سجادة صلاة">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <p>سجادة صلاة فاخرة</p>
+                                    <button class="btn-icon"><i class="fas fa-magnifying-glass-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="item-footer">
+                        <p class="item-title">سجادة صلاة فاخرة</p>
+                        <div class="item-rating">
+                            <i class="fas fa-star"></i>
+                            <span>(15)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="prayer" data-aos="fade-up" data-aos-delay="200">
+                    <a href="y15.jpg" class="glightbox gallery-link" data-gallery="gallery" data-description="سجادة صلاة مميزة - تصميم متقن">
+                        <div class="image-wrapper">
+                            <img src="y15.jpg" alt="سجادة صلاة">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <p>سجادة صلاة مميزة</p>
+                                    <button class="btn-icon"><i class="fas fa-magnifying-glass-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="item-footer">
+                        <p class="item-title">سجادة صلاة مميزة</p>
+                        <div class="item-rating">
+                            <i class="fas fa-star"></i>
+                            <span>(20)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="prayer" data-aos="fade-up" data-aos-delay="250">
+                    <a href="y16.jpg" class="glightbox gallery-link" data-gallery="gallery" data-description="سجادة صلاة أنيقة - راحة وجمال">
+                        <div class="image-wrapper">
+                            <img src="y16.jpg" alt="سجادة صلاة">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <p>سجادة صلاة أنيقة</p>
+                                    <button class="btn-icon"><i class="fas fa-magnifying-glass-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="item-footer">
+                        <p class="item-title">سجادة صلاة أنيقة</p>
+                        <div class="item-rating">
+                            <i class="fas fa-star"></i>
+                            <span>(16)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Qurans -->
+                <div class="gallery-item" data-category="quran" data-aos="fade-up" data-aos-delay="300">
+                    <a href="y17.jpg" class="glightbox gallery-link" data-gallery="gallery" data-description="عباية فاخرة - تصميم متقن">
+                        <div class="image-wrapper">
+                            <img src="y17.jpg" alt="عباية أنيقة">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <p>عباية فاخرة</p>
+                                    <button class="btn-icon"><i class="fas fa-magnifying-glass-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="item-footer">
+                        <p class="item-title">عباية فاخرة</p>
+                        <div class="item-rating">
+                            <i class="fas fa-star"></i>
+                            <span>(22)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="quran" data-aos="fade-up" data-aos-delay="350">
+                    <a href="y20.jpg" class="glightbox gallery-link" data-gallery="gallery" data-description="عباية مميزة - تصميم حديث و أنيق">
+                        <div class="image-wrapper">
+                            <img src="y20.jpg" alt="عباية مع تصميم جديد">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <p>عباية مع سجادة صلاة</p>
+                                    <button class="btn-icon"><i class="fas fa-magnifying-glass-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="item-footer">
+                        <p class="item-title">عباية مع سجادة صلاة</p>
+                        <div class="item-rating">
+                            <i class="fas fa-star"></i>
+                            <span>(19)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="quran" data-aos="fade-up" data-aos-delay="400">
+                    <a href="yaqoot2.jpg" class="glightbox gallery-link" data-gallery="gallery" data-description="عباية أنيقة - غلاف فاخر وجميل">
+                        <div class="image-wrapper">
+                            <img src="yaqoot2.jpg" alt="عباية أنيقة">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <p>عباية بتصميم جديد</p>
+                                    <button class="btn-icon"><i class="fas fa-magnifying-glass-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="item-footer">
+                        <p class="item-title">عباية بتصميم جديد</p>
+                        <div class="item-rating">
+                            <i class="fas fa-star"></i>
+                            <span>(21)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Products -->
+                <div class="gallery-item" data-category="all" data-aos="fade-up" data-aos-delay="450">
+                    <a href="yaqoot3.jpg" class="glightbox gallery-link" data-gallery="gallery" data-description="منتج مميز - تصميم حصري وفريد">
+                        <div class="image-wrapper">
+                            <img src="yaqoot3.jpg" alt="منتج">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <p>منتج مميز</p>
+                                    <button class="btn-icon"><i class="fas fa-magnifying-glass-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="item-footer">
+                        <p class="item-title">منتج مميز</p>
+                        <div class="item-rating">
+                            <i class="fas fa-star"></i>
+                            <span>(14)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="all" data-aos="fade-up" data-aos-delay="500">
+                    <a href="yaqoot4.jpg" class="glightbox gallery-link" data-gallery="gallery" data-description="منتج فاخر - جودة رائعة وسعر منافس">
+                        <div class="image-wrapper">
+                            <img src="yaqoot4.jpg" alt="منتج">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <p>منتج فاخر</p>
+                                    <button class="btn-icon"><i class="fas fa-magnifying-glass-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="item-footer">
+                        <p class="item-title">منتج فاخر</p>
+                        <div class="item-rating">
+                            <i class="fas fa-star"></i>
+                            <span>(17)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="all" data-aos="fade-up" data-aos-delay="550">
+                    <a href="yaqoot5.jpg" class="glightbox gallery-link" data-gallery="gallery" data-description="منتج أنيق - كمالية وفخامة بمعايير عالية">
+                        <div class="image-wrapper">
+                            <img src="yaqoot5.jpg" alt="منتج">
+                            <div class="overlay">
+                                <div class="overlay-content">
+                                    <p>منتج أنيق</p>
+                                    <button class="btn-icon"><i class="fas fa-magnifying-glass-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="item-footer">
+                        <p class="item-title">منتج أنيق</p>
+                        <div class="item-rating">
+                            <i class="fas fa-star"></i>
+                            <span>(23)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h2>عن ياقوت ستور</h2>
+                    <p>نحن نوفر أفضل صناعات العبايات والسجادات الإسلامية والمصاحف الفاخرة. </p>
+                    <p>نقدم لك منتجات عالية الجودة بأسعار منافسة، مع ضمان الرضا التام.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <span>جودة عالية مضمونة</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-tag"></i>
+                            <span>أسعار منافسة</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>ضمان الرضا 100%</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-headset"></i>
+                            <span>خدمة عملاء ممتازة</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="image-shadow"></div>
+                    <img src="yaqoot.jpg" alt="عن المتجر">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr><hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ياقوت ستور</h4>
+                    <p>متجرك الموثوق للعبايات والسجادات والمصاحف</p>
+                </div>
+                <div class="footer-section">
+                    <h4>الروابط السريعة</h4>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#products">المنتجات</a></li>
+                        <li><a href="#about">عن المتجر</a></li>
+                        <li><a href="#contact">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>تابعنا</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/hamo.shaker.940?__cft__[0]=AZY6hdylGsBi66oo7g-nx7yrGqZV0bnRE8ynWtLQxJHrm9As9GnAfMJL8KBxTejhfzemuVd6eWXlA5J6-CRtPbBEnvSEhijPT5nXKYUC25xnpWn8rkp0MVMl-NcPSZZ8R0_iuuRJSs_L0oPqUlCHMthi_uUqiOJ1Cau27qlNFJT_hA&__tn__=-UC%2CP-R" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fhamoshaker_official%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExZGZlNGluWGM2ZE53NTMwSnNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5jy4OVW2xnPwik7KAmCKN5v_HD8FXxxSLVHDhe2-qaTQLK0m0teEszBbiqsg_aem_HtELfQ0yf5EZjK_iURsJTA&h=AT19stDwkAxjjGfXHmvv2lFbi0v8ksJYvcjooAvRT4sq_KcS8EaxWR0YxmMpWMwH_tt3fyQ74f_bj8VFoIINRdeIlUgjDc0L8-n5GuAdPfaOeJlSkbw7dxwn0lhuR12ZhedDjRL5fVePlV3qlC7z" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftiktok.com%2F%40hamoshakerofficial%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExZGZlNGluWGM2ZE53NTMwSnNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR771wj2QxPsN1H9NZYXUlslR5LPONqNQwVy0Wnl72vHR9jR0UMHvNSodfRVdA_aem_yj5yvoODMp0n6WJF1fYjbQ&h=AT2RY-S6HmZg6HCZT1Iyra8gEeGMNpv4gyDNqm5WRGz8D2MfnXfgb6x2dkfW4FTIfQkCKDXtgy2_RAR9p2ITFHzb15HUmKl7bch-bCSrhgNg5sXtf6op3UFgSvMva54JCeHXzWoph6mMmwRUVEw2" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ياقوت ستور. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
